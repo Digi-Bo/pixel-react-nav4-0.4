@@ -22,7 +22,10 @@ const Portfolio = ({ navigation }) => {
     <View style={styles.container}>
       <Text style={globalStyles.h1}>Portofolio</Text>
       <Text style={globalStyles.h2}>{navigation.getParam("name")}</Text>
+      <Text style={globalStyles.h2}>{navigation.getParam("country")}</Text>
+      <Text style={globalStyles.h2}>{navigation.getParam("totalImg")}</Text>
       <Text style={globalStyles.text}>{navigation.getParam("country")}</Text>
+      <Text style={globalStyles.text}>{navigation.getParam("favColor")}</Text>
       <Button title="Vers Photos" onPress={handlePress} />
     </View>
   );
