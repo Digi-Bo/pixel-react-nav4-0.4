@@ -1,4 +1,6 @@
 export default {
     white: "#fff",
-    clicked : 'palevioletred'
+    clicked : 'palevioletred',
+
+    blueColor :  'lightskyblue'
 }
